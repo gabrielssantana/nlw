@@ -1,12 +1,56 @@
-# Next Level Week
+# Next Level Week 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/gabrielssantana/nlw/blob/main/LICENSE) 
 
-## Projeto Proffy
+# Sobre o projeto
 
-Olá visitante, alguns requisitos para executar o projeto:
+O Proffy é um app para que alunos encontrem professores para aulas de reforço.
 
-- Node versão 12.22.1;
-- Executar o comando 'npm i' para inserir a pasta node_modules;
-- Executar o comando 'npm run dev';
-- Abrir o navegador em 'http://localhost:5500/';
+## Layout mobile
 
-Nesta semana pude ter meu primeiro contato com programação desde conhecer o HTML e CSS até a criação completa de uma infraestrutura para rodar a aplicação com node.js. 
+![Mobile 1](https://github.com/gabrielssantana/assets/blob/main/nlw/proffy-home-mobile.png)
+
+![Mobile 2](https://github.com/gabrielssantana/assets/blob/main/nlw/proffy-search-mobile.png)
+
+![Mobile 3](https://github.com/gabrielssantana/assets/blob/main/nlw/proffy-register-mobile.png)
+
+
+## Layout web
+![Web 1](https://github.com/gabrielssantana/assets/blob/main/nlw/proffy-home-web.png)
+
+![Web 2](https://github.com/gabrielssantana/assets/blob/main/nlw/proffy-register-web.png)
+
+![Web 3](https://github.com/gabrielssantana/assets/blob/main/nlw/proffy-search-web.png)
+
+# Tecnologias utilizadas
+- HTML
+- CSS
+- JavaScript
+- nodemon
+- express
+- Nunjucks
+- SQLite
+
+# Como executar o projeto
+Pré-requisitos: node/yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/gabrielssantana/nlw.git
+
+# entrar na pasta do projeto front end web
+cd nlw
+
+# instalar dependências
+yarn install
+
+# executar o projeto
+yarn dev
+
+#Acessar http://localhost:5500
+```
+
+# Autor
+
+Gabriel Santana
+
+https://www.linkedin.com/in/gabriel-santos-santana/
